@@ -187,7 +187,7 @@ ol {
   position: relative;
 }
 
-.redes-sociales .redes-sociales-envoltorio h2 {
+.titulo-redes-sociales {
   display: inline-block;
   float: right;
   font-weight: 400;
@@ -197,6 +197,14 @@ ol {
   z-index: 5;
 }
 
+.titulo-redes-sociales {
+  float: right;
+  font-weight: 400;
+  padding-left: 30px;
+  background: $bg-gris-claro;
+  position: relative;
+  z-index: 5;
+}
 .redes-sociales .redes-sociales-envoltorio::after {
   position: absolute;
   content: '';
@@ -306,6 +314,17 @@ ol {
 
 /* Tablet :768px. */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+  .titulo-redes-sociales {
+  display: inline-block;
+  float: right;
+  font-weight: 400;
+  padding-left: 30px;
+  background: $bg-gris-claro;
+  position: relative;
+  z-index: 5;
+  display: none;
+}
+
   .flotaizquierda {
     float: left;
     width: 100%;
@@ -335,6 +354,17 @@ ol {
 
 /* Large Mobile :480px. */
 @media only screen and (max-width: 767px) {
+  .titulo-redes-sociales {
+  display: inline-block;
+  float: right;
+  font-weight: 400;
+  padding-left: 30px;
+  background: $bg-gris-claro;
+  position: relative;
+  z-index: 5;
+  display: none;
+  }
+
   .flotaizquierda {
     float: left;
     width: 100%;
@@ -379,6 +409,17 @@ ol {
 
 /* small Mobile :320px. */
 @media only screen and (max-width: 479px) {
+  .titulo-redes-sociales {
+  display: inline-block;
+  float: right;
+  font-weight: 400;
+  padding-left: 30px;
+  background: $bg-gris-claro;
+  position: relative;
+  z-index: 5;
+  display: none;
+  }
+
   .flotaizquierda {
     float: left;
     width: 100%;
