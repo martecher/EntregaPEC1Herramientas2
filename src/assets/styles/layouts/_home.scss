@@ -409,6 +409,10 @@ ol {
 
 /* small Mobile :320px. */
 @media only screen and (max-width: 479px) {
+  .foto-cv {
+    display: none;
+  }
+
   .titulo-redes-sociales {
   display: inline-block;
   float: right;
